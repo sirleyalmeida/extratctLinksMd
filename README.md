@@ -11,7 +11,7 @@ $  npm install extractlinkmd
 ## Como utilizar:
 
 ```javascript
-const extractLinksFromMd = require('extractlinksmd');
+const getLinksFromMd = require('getLinksFromMd');
 const str = `# Lorem ipsum
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut [labore](https://en.wiktionary.org/wiki/labore) et [dolore](https://en.wiktionary.org/wiki/dolore) magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -20,7 +20,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
 
-const links = extractLinksFromMd(str);
+const links = getLinksFromMd(str);
 
 console.log(links);
 // [
