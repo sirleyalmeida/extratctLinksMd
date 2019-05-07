@@ -11,7 +11,7 @@ $  npm install getlinksfrom-md
 ## Como utilizar:
 
 ```javascript
-const getLinksFromMd = require('getlinksfrom-md');
+const getLinksFromMd = require('extratctlinksfrom-md');
 const str = `# Lorem ipsum
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut [labore](https://en.wiktionary.org/wiki/labore) et [dolore](https://en.wiktionary.org/wiki/dolore) magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

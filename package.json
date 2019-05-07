@@ -1,5 +1,5 @@
 {
-  "name": "getlinksfrom-md",
+  "name": "extratctlinksfrom-md",
   "version": "1.0.0",
   "description": "Esta aplicação destina-se à extração de todos os links encontrados em uma entrada de string.",
   "main": "index.js",
