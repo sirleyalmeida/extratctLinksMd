@@ -39,3 +39,7 @@ getLinksFromMd(str);
 
 * Funcionalidades: extração de links;
 * Entrada de Strings.
+
+## Keywords
+
+get link, markdown. 
