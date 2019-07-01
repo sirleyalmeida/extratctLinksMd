@@ -10,6 +10,10 @@ $  npm install extratctlinksfrom-md
 
 ## Como utilizar:
 
+* Formato de entrada da função: string.
+
+Exemplo:
+
 ```node
 const getLinksFromMd = require('extratctlinksfrom-md');
 const str = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut [labore](https://en.wiktionary.org/wiki/labore) et [dolore](https://en.wiktionary.org/wiki/dolore) magna aliqua.';
